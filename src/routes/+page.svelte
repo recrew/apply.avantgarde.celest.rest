@@ -127,7 +127,7 @@
 </script>
 <style>
     .banner {
-        background-image: url('/barkeeper-1400x600.jpg');
+        background-image: url('https://a.storyblok.com/f/248476/1920x1080/1cdab419e0/13.png/m/');
         background-size: cover;
         background-position: bottom left;
         background-repeat: no-repeat;
@@ -141,7 +141,7 @@
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 
             <p class="mb-4 text-2xl font-normal tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-                Wir bieten:</p>
+                "Craft your own story. Unite globally. Experience more"</p>
             <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-700 md:text-4xl lg:text-5xl dark:text-white">
                 Den flexibelsten Nebenjob der Stadt</h1>
             <p class="font-semibold mb-2 dark:text-white">
