@@ -23,7 +23,7 @@
     <NavBrand>
         <DarkMode/>
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-3">
-      <a href="{base}/"><img class="h-10" src="/recrew-web-banner.webp" alt="logo"></a>
+      <a href="{base}/"><img class="h-10" src="https://avantgarde.net/assets/icons/logo-white.svg" alt="logo"></a>
     </span>
     </NavBrand>
     <NavHamburger on:click={toggle} />
