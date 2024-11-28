@@ -20,7 +20,7 @@ const config = {
       precompress: false
     }),
     paths: {
-      base: dev ? '' : '/apply.recrew.de'
+      base: dev ? '' : '/apply.avantgarde.celest.rest'
     }
   },
 };
