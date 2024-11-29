@@ -129,7 +129,7 @@
     .banner {
         background-image: url('/apply.avantgarde.celest.rest/67033393_2323197791096454_6456399911150682112_n.jpg');
         background-size: cover;
-        background-position: top center;
+        background-position: center center;
         background-repeat: no-repeat;
         height: 58vh;
     }
