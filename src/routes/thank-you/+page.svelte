@@ -14,12 +14,12 @@
     import {onMount} from "svelte";
     import {PUBLIC_API_PATH} from "$env/static/public";
 
-    let link = "https://apply.recrew.de"
+    let link = "https://recrew.github.io/apply.avantgarde.celest.rest"
 
     let generatedQrCode: string;
     onMount(() => {
         if($page.url.searchParams.get('ref')) {
-            link = "https://apply.recrew.de?ref=" + $page.url.searchParams.get('ref');
+            link = "https://recrew.github.io/apply.avantgarde.celest.rest?ref=" + $page.url.searchParams.get('ref');
             fetch(PUBLIC_API_PATH + '/qr', {
                 method: 'POST',
                 headers: {
@@ -27,7 +27,7 @@
                 },
                 body: JSON.stringify({
                     text: link,
-                    logoPath: 'https://portal.celest.services/img/ci/button_recrew_solid_black.svg'
+                    logoPath: 'https://portal.avantgarde.celest.rest/img/ci/ava-logo.png'
                 })
             }).then(r => r.blob()).then(r => {
                 generatedQrCode = URL.createObjectURL(r)
