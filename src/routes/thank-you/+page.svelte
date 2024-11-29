@@ -27,7 +27,7 @@
                 },
                 body: JSON.stringify({
                     text: link,
-                    logoPath: 'https://portal.avantgarde.celest.rest/img/ci/ava-logo.png'
+                    logoPath: 'https://portal.avantgarde.celest.rest/img/ci/ava-logo.svg'
                 })
             }).then(r => r.blob()).then(r => {
                 generatedQrCode = URL.createObjectURL(r)
