@@ -127,7 +127,7 @@
 </script>
 <style>
     .banner {
-        background-image: url('https://a.storyblok.com/f/248476/1920x1080/1cdab419e0/13.png/m/');
+        background-image: url('/apply.avantgarde.celest.rest/67033393_2323197791096454_6456399911150682112_n.jpg');
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
