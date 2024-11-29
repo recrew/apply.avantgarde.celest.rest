@@ -129,9 +129,9 @@
     .banner {
         background-image: url('https://a.storyblok.com/f/248476/1920x1080/1cdab419e0/13.png/m/');
         background-size: cover;
-        background-position: bottom left;
+        background-position: top center;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 58vh;
     }
 </style>
 <div class="w-full banner"></div>
